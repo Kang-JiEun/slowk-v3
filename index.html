@@ -1,286 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <meta name="referrer" content="always">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="format-detection" content="telephone=no,address=no,email=no">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <!-- No cache -->
-    <meta http-equiv="Expires" content="-1">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Cache-Control" content="no-cache; no-store; no-save">
-    <meta property="og:title" content="강지은 포트폴리오">
-    <title>강지은 포트폴리오</title>
-    <link rel="icon" type="image/svg+xml" href="/images/header/logo_icon.svg">
-
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/layout.css">
-    <link rel="stylesheet" href="/css/base.css">
-    <link rel="stylesheet" href="/script/libs/remixicon/remixicon-2.5.0.css">
-    <link rel="stylesheet" href="/script/libs/jquery/jquery-ui-1.12.1.min.css">
-    <link rel="stylesheet" href="/script/libs/swiper/swiper-4.5.3.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
-
-    <script src="/script/libs/jquery/jquery-1.12.4.min.js"></script>
-    <script src="/script/libs/jquery/jquery-ui-1.12.1.min.js"></script>
-    <script src="/script/libs/swiper/swiper-4.5.3.min.js"></script>
-    
-    <script type="text/javascript" src="/script/main.js"></script>
-    <script type="text/javascript" src="/script/load.js"></script>
-    
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="웹 UI 디자인, 콘텐츠 제작, 퍼블리싱과 운영 경험을 담은 강지은의 웹디자인 포트폴리오입니다.">
+  <meta property="og:title" content="강지은 | Web Designer Portfolio">
+  <meta property="og:description" content="정보를 정리하고 브랜드의 인상을 설계하는 웹디자이너 강지은의 포트폴리오">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/images/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="/images/og.png">
+  <title>강지은 | Web Designer Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="images/header/logo_icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/v3.css">
+  <script src="script/v3.js" defer></script>
 </head>
-
 <body>
-    <header id="header"></header>
+  <a class="skip-link" href="#main">본문 바로가기</a>
 
-    <section id="visual">
-        <div class="inner">
-            <div class="wrap">
-                <div class="cont01">
-                    <div class="row row01 visual-area">
-                        <div class="row-inr inr">
-                            <div class="grid gut-24">
-                                <div class="visual-slider cont01-visual-slider col col-7">
-                                    <div class="swiper-control">
-                                        <div class="swiper-pagination cont01-visual-swiper-pagination"></div>
-                                        <div
-                                            class="swiper-button-prev cont01-visual-swiper-button-prev ri-arrow-left-s-line">
-                                        </div>
-                                        <div
-                                            class="swiper-button-pause cont01-visual-swiper-button-pause ri-pause-line">
-                                        </div>
-                                        <div
-                                            class="swiper-button-next cont01-visual-swiper-button-next ri-arrow-right-s-line">
-                                        </div>
-                                    </div>
-                                    <!-- Slider main container -->
-                                    <div class="swiper-container">
-                                        <!-- Additional required wrapper -->
-                                        <div class="swiper-wrapper">
-                                            <!-- Slides -->
-                                            <div class="swiper-slide">
-                                                <a href="/html/introduce/personal/saju-mbti.html">
-                                                    <img src="images/visual/sajab.png" alt="사주 × MBTI 분석 서비스">
-                                                    <div class="slide-caption">
-                                                        <span class="slide-badge badge-green">1MONTH · 1인 완성</span>
-                                                        <p class="slide-text">기획부터 Next.js 배포까지<br>1인이 완수한 <strong>사주 × MBTI 서비스</strong></p>
-                                                        <span class="slide-cta">자세히 보기 <i class="ri-arrow-right-line"></i></span>
-                                                    </div>
-                                                </a>
-                                            </div>
+  <header class="site-header" data-header>
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="포트폴리오 처음으로">
+        <span>JIEUN</span><b>WORKS</b>
+      </a>
+      <button class="menu-button" type="button" aria-label="메뉴 열기" aria-expanded="false" data-menu-button>
+        <span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="주요 메뉴" data-nav>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-                                            <div class="swiper-slide">
-                                                <a href="/html/introduce/personal/lol-team.html">
-                                                    <img src="images/visual/scrim.png" alt="롤 내전 팀 구성 시스템">
-                                                    <div class="slide-caption">
-                                                        <span class="slide-badge badge-blue">9MONTHS · 지속 개선</span>
-                                                        <p class="slide-text">수동 사회자의 한계를<br>Riot API + 자동화로 해결한 <strong>실시간 웹앱</strong></p>
-                                                        <span class="slide-cta">자세히 보기 <i class="ri-arrow-right-line"></i></span>
-                                                    </div>
-                                                </a>
-                                            </div>
-
-                                            <div class="swiper-slide">
-                                                <a href="/html/introduce/personal/portfolio.html">
-                                                    <img src="images/visual/personalPortfolio.png" alt="개인 포트폴리오 사이트">
-                                                    <div class="slide-caption">
-                                                        <span class="slide-badge badge-red">NO AI · 100% 직접</span>
-                                                        <p class="slide-text">기획 · 디자인 · 퍼블리싱까지<br>처음부터 끝까지 <strong>1인 완성</strong></p>
-                                                        <span class="slide-cta">자세히 보기 <i class="ri-arrow-right-line"></i></span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="info">
-                    <h1 class="mb20"><span>기획·디자인·개발</span>의 경계를 허물어 <span>제품의 가치</span>를 만드는 프론트엔드 엔지니어 강지은입니다.</h1>
-                    <p class="mb30 intro-desc">사용자 중심의 UX 설계부터 React 기반의 프론트엔드 개발까지 직접 이어가며, 디자인과 기술 양쪽을 모두 다루는 시야로 제품의 가치를 최우선으로 고민합니다.
-                    </p>
-                    <div class="btn1 mb80"><a href="html/introduce/introduce.html">자기소개 페이지 바로가기</a></div>
-                </div>
-            </div>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="eyebrow reveal">WEB DESIGNER · UI/UX · CONTENT</p>
+        <h1 class="reveal">
+          정보를 <span>보기 쉽게</span>,<br>
+          브랜드를 <span>기억하기 쉽게.</span>
+        </h1>
+        <div class="hero-bottom reveal">
+          <p>웹 UI 설계부터 콘텐츠 제작, 퍼블리싱과 운영까지.<br>사용자에게 필요한 정보가 분명하게 보이는 화면을 만듭니다.</p>
+          <a class="circle-link" href="#work" aria-label="프로젝트 보기">
+            <span>VIEW<br>WORK</span><i>↘</i>
+          </a>
         </div>
+      </div>
+      <div class="hero-index" aria-hidden="true">PORTFOLIO / 2026</div>
     </section>
 
-
-    <section id="design" class="content">
-        <div class="inner">
-            <div class="grid">
-                <div class="one tit">
-                    <h2>DESIGN<span class="blue ml15">표지&카드뉴스</span></h2>
-                    <p class="mt30">클립아트코리아 홈페이지의 디자인들을 조합 · 수정하여 제작하였습니다.</p>
-                </div>
-                <div class="two">
-                    <a href="html/design/cover_making/기타.html"><img src="images/content/main/design/design_pic_01.jpg"
-                            alt=""></a>
-                </div>
-                <div class="three">
-                    <a href="html/design/cover_making/제안서표지.html"><img
-                            src="images/content/main/design/design_pic_02.jpg" alt=""></a>
-                </div>
-                <div class="four">
-                    <a href="html/design/cover_making/기타.html"><img src="images/content/main/design/design_pic_03.jpg"
-                            alt=""></a>
-                </div>
-                <div class="five">
-                    <a href="html/design/card_news/카드뉴스제작.html"><img
-                            src="images/content/main/design/design_pic_cadenews.jpg" alt=""></a>
-                </div>
-            </div>
+    <section class="intro section" id="about">
+      <div class="section-inner intro-grid">
+        <div>
+          <p class="section-label reveal">01 · ABOUT</p>
+          <div class="portrait-mark reveal" aria-hidden="true">
+            <span>WEB</span><span>DESIGN</span><span>+</span>
+          </div>
         </div>
+        <div class="intro-copy reveal">
+          <h2>디자인의 완성은<br>실제 화면에서 시작된다고 생각합니다.</h2>
+          <p>공공기관과 기업 웹서비스에서 UI 디자인, 퍼블리싱, 운영을 함께 경험했습니다. 정보가 많은 화면은 구조를 정돈하고, 반복되는 콘텐츠는 일관된 규칙으로 묶어 사용자가 자연스럽게 다음 행동을 찾도록 설계합니다.</p>
+          <div class="capabilities">
+            <div><b>01</b><span>Web UI Design</span></div>
+            <div><b>02</b><span>Content Design</span></div>
+            <div><b>03</b><span>Publishing</span></div>
+            <div><b>04</b><span>Service Operation</span></div>
+          </div>
+        </div>
+      </div>
     </section>
 
-
-    <section id="wabBar">
-        <div class="inner">
-            <div class="wrap">
-                <div class="info wrap">
-                    <div class="wrap">
-                        <img src="images/content/main/wabBar/wab_bar_info.svg" alt="웹접근성이란?">
-                        <h3 class="ml10">웹(Wab)접근성이란?</h3>
-                    </div>
-                    <div class="btn3 ml20"><a href="http://www.wa.or.kr/m1/sub1.asp" target="_blank"
-                            title="새창열기">바로가기</a></div>
-                </div>
-                <p><a class="aqua" href="http://www.webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110"
-                        target="_blank" title="새창열기">충청남도청 2022.05.07 ~ 2023.05.06 웹접근성 완료</a></p>
-            </div>
+    <section class="work section" id="work">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-label">02 · SELECTED WORK</p>
+            <h2>화면의 목적부터<br>생각한 작업들</h2>
+          </div>
+          <p>웹사이트, 공공 콘텐츠, 운영 디자인까지<br>역할과 결과를 중심으로 정리했습니다.</p>
         </div>
+
+        <article class="featured-project reveal">
+          <a class="project-image" href="html/publising/remake/cn_메인/index.html" target="_blank" rel="noopener">
+            <img src="images/content/main/publishing/chungnam.jpg" alt="충청남도 대표 홈페이지 화면">
+            <span class="view-chip">결과 화면 보기 ↗</span>
+          </a>
+          <div class="project-copy">
+            <div class="project-meta"><span>PUBLIC WEB</span><span>2022</span></div>
+            <h3>충청남도<br>대표 홈페이지</h3>
+            <p>도정 정보를 빠르게 찾을 수 있도록 메인 화면의 정보 우선순위와 카드 구성을 정리하고, 반응형 웹으로 구현했습니다.</p>
+            <dl>
+              <div><dt>Role</dt><dd>웹디자인 60% · 퍼블리싱 100%</dd></div>
+              <div><dt>Scope</dt><dd>UI 개편 · 반응형 · 웹접근성</dd></div>
+              <div><dt>Tools</dt><dd>XD · Photoshop · Illustrator</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <a href="html/publising/etc/koreaweather/index.html" target="_blank" rel="noopener">
+              <div class="card-image blue-bg"><img src="images/content/sub/publising/한국기상산업기술원.jpg" alt="한국기상산업기술원 웹사이트 목업"></div>
+              <div class="card-copy">
+                <div class="project-meta"><span>RESPONSIVE WEB</span><span>01</span></div>
+                <h3>한국기상산업기술원</h3>
+                <p>기관의 핵심 서비스와 콘텐츠를 명확히 구분한 반응형 메인 화면 퍼블리싱</p>
+                <span class="text-link">사이트 보기 ↗</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card reveal">
+            <a href="html/publising/etc/medilife/index.html" target="_blank" rel="noopener">
+              <div class="card-image cream-bg"><img src="images/content/sub/publising/MEDILFE.jpg" alt="메디라이프 웹사이트 목업"></div>
+              <div class="card-copy">
+                <div class="project-meta"><span>BRAND WEB</span><span>02</span></div>
+                <h3>MEDILIFE</h3>
+                <p>차분한 색상과 넓은 여백으로 전문성과 신뢰감을 전달한 의료 서비스 웹 화면</p>
+                <span class="text-link">사이트 보기 ↗</span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
     </section>
 
-
-    <section id="publising">
-        <div class="inner">
-            <div class="tab_tit">
-                <ul class="wrap">
-                    <li class="on">충청남도청</li>
-                    <li>LOLCHESS</li>
-                    <li>한국기상산업기술원</li>
-                    <li>MEDILFE</li>
-                </ul>
-            </div>
+    <section class="content-work section">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-label">03 · CONTENT DESIGN</p>
+            <h2>운영에 필요한<br>콘텐츠 디자인</h2>
+          </div>
+          <p>매체와 정보 성격에 맞춰 한눈에 읽히고,<br>연속해서 보아도 일관된 디자인을 만듭니다.</p>
         </div>
 
-        <div class="tab_cont on content">
-            <div class="inner">
-                <div class="wrap">
-                    <div class="tit mt30">
-                        <h2>PUBLISING<span class="blue ml15">#2022제작</span></h2>
-                        <h1 class="mt30">충청남도청 사이트</h1>
-                        <h4 class="mt10">기여도<span class="ml15 gray">디자인 60%, 퍼블리싱 100%</span></h4>
-                        <h4 class="mt10 mb10">사용프로그램</h4>
-                        <ul class="icon wrap">
-                            <li><img src="images/content/main/publishing/icon/visual.svg" alt="Brackets icon">visual
-                            </li>
-                            <li><img src="images/content/main/publishing/icon/XD.svg" alt="XD icon">XD</li>
-                            <li><img src="images/content/main/publishing/icon/Photoshop.svg"
-                                    alt="Photoshop icon">Photoshop</li>
-                            <li><img src="images/content/main/publishing/icon/illustrator.svg"
-                                    alt="illustrator icon">illustrator</li>
-                            <li><img src="images/content/main/publishing/icon/Premiere.svg"
-                                alt="illustrator icon">Premiere</li>
-                        </ul>
-                        <div class="btn2 mt60"><a href="html/publising/remake/cn_메인.html">충청남도청 상세페이지 바로가기</a></div>
-                        <div class="btn1 mt20"><a href="http://www.chungnam.go.kr/main.do" target="_blank" title="새창열기">충청남도청 사이트 바로가기</a></div>
-                    </div>
-                    <div class="box">
-                        <img src="images/content/main/publishing/그룹 1096.png" alt="노튜북">
-                        <div class="site_screen">
-                            <img class="site" src="images/content/main/publishing/chungnam.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="content-gallery">
+          <figure class="gallery-wide reveal">
+            <div class="gallery-image"><img src="images/content/sub/design/card_news.jpg" alt="충청남도 월간 재정정보 카드뉴스 모음"></div>
+            <figcaption><span>01</span><div><h3>월간 재정정보 카드뉴스</h3><p>월별 주제에 맞춘 색상과 삽화를 활용해 복잡한 정책 정보를 친근하게 전달</p></div></figcaption>
+          </figure>
+          <figure class="reveal">
+            <div class="gallery-image"><img src="images/content/sub/design/banner%26popup.jpg" alt="충청남도 배너 및 팝업 디자인 모음"></div>
+            <figcaption><span>02</span><div><h3>배너 & 팝업</h3><p>짧은 노출 안에 핵심 메시지와 행동 정보를 전달하는 운영 콘텐츠</p></div></figcaption>
+          </figure>
+          <figure class="reveal">
+            <div class="gallery-image"><img src="images/content/sub/design/proposal_cover.jpg" alt="공공기관 제안서 표지 디자인 모음"></div>
+            <figcaption><span>03</span><div><h3>제안서 표지</h3><p>사업의 성격과 발주 기관의 이미지를 반영한 문서 표지 디자인</p></div></figcaption>
+          </figure>
         </div>
-
-        <div class="tab_cont content">
-            <div class="inner">
-                <div class="wrap">
-                    <div class="tit mt30">
-                        <h2>PUBLISING<span class="blue ml15">#2021제작</span></h2>
-                        <h1 class="mt30">LOLCHESS 사이트</h1>
-                        <h4 class="mt10">기여도<span class="ml15 gray">퍼블리싱 100%</span></h4>
-                        <h4 class="mt10 mb10">사용프로그램</h4>
-                        <ul class="icon wrap">
-                            <li><img src="images/content/main/publishing/icon/Brackets.svg" alt="Brackets icon">Brackets
-                            </li>
-                        </ul>
-                        <div class="btn2 mt60"><a href="html/publising/etc/lolchess.html">LOLCHESS 상세페이지 바로가기</a></div>
-                        <div class="btn1 mt20"><a href="html/publising/etc/lolchess/index.html" target="_blank" title="새창열기">LOLCHESS 사이트 바로가기</a></div>
-                    </div>
-                    <div class="box">
-                        <img src="images/content/main/publishing/그룹 1096.png" alt="노튜북">
-                        <div class="site_screen">
-                            <img class="site" src="images/content/main/publishing/lolchess.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="tab_cont content">
-            <div class="inner">
-                <div class="wrap">
-                    <div class="tit mt30">
-                        <h2>PUBLISING<span class="blue ml15">#2021제작</span></h2>
-                        <h1 class="mt30">한국기상산업기술원 사이트</h1>
-                        <h4 class="mt10">기여도<span class="ml15 gray">퍼블리싱 100%</span></h4>
-                        <h4 class="mt10 mb10">사용프로그램</h4>
-                        <ul class="icon wrap">
-                            <li><img src="images/content/main/publishing/icon/Brackets.svg" alt="Brackets icon">Brackets
-                            </li>
-                        </ul>
-                        <div class="btn2 mt60"><a href="html/publising/etc/한국기상산업기술원.html">한국기상산업기술원 상세페이지 바로가기</a></div>
-                        <div class="btn1 mt20"><a href="html/publising/etc/koreaweather/index.html" target="_blank" title="새창열기">한국기상산업기술원 사이트 바로가기</a></div>
-                    </div>
-                    <div class="box">
-                        <img src="images/content/main/publishing/그룹 1096.png" alt="노튜북">
-                        <div class="site_screen">
-                            <img class="site" src="images/content/main/publishing/koreaweather.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="tab_cont content">
-            <div class="inner">
-                <div class="wrap">
-                    <div class="tit mt30">
-                        <h2>PUBLISING<span class="blue ml15">#2021제작</span></h2>
-                        <h1 class="mt30">MEDILFE 사이트</h1>
-                        <h4 class="mt10">기여도<span class="ml15 gray">퍼블리싱 100%</span></h4>
-                        <h4 class="mt10 mb10">사용프로그램</h4>
-                        <ul class="icon wrap">
-                            <li><img src="images/content/main/publishing/icon/Brackets.svg" alt="Brackets icon">Brackets</li>
-                        </ul>
-                        <div class="btn2 mt60"><a href="html/publising/etc/medilfe.html">MEDILFE 상세페이지 바로가기</a></div>
-                        <div class="btn1 mt20"><a href="html/publising/etc/medilife/index.html" target="_blank" title="새창열기">MEDILFE 사이트 바로가기</a></div>
-                    </div>
-                    <div class="box">
-                        <img src="images/content/main/publishing/그룹 1096.png" alt="노트북">
-                        <div class="site_screen">
-                            <img class="site" src="images/content/main/publishing/medilife.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </section>
 
+    <section class="experience section" id="experience">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-label">04 · EXPERIENCE</p>
+            <h2>디자인을 이해하고<br>운영까지 이어갑니다.</h2>
+          </div>
+        </div>
 
-    <footer id="footer" class="content"></footer>
+        <div class="experience-list">
+          <article class="reveal">
+            <p>2024.09 — NOW</p>
+            <div><h3>EXSIS</h3><span>웹 UI 디자인 · 퍼블리싱 · 프론트엔드</span></div>
+            <p>기업용 업무시스템의 복잡한 정보를 구조화하고, 반복 화면의 UI 규칙을 정리해 실제 운영 환경에 적용합니다.</p>
+          </article>
+          <article class="reveal">
+            <p>2022.12 — 2023.08</p>
+            <div><h3>NELDIT</h3><span>웹디자인 · 퍼블리싱</span></div>
+            <p>디지털 자산 서비스의 웹 UI와 회사 로고를 제작하고 HTML·CSS·JavaScript로 화면을 구현했습니다.</p>
+          </article>
+          <article class="reveal">
+            <p>2022.03 — 2022.11</p>
+            <div><h3>SAYSOFT</h3><span>웹디자인 · 콘텐츠 · 퍼블리싱</span></div>
+            <p>충청남도 대표 홈페이지와 산하 사이트의 디자인·퍼블리싱, 카드뉴스와 제안서 등 운영 디자인을 담당했습니다.</p>
+          </article>
+        </div>
 
+        <div class="tools reveal">
+          <p>TOOLS & SKILLS</p>
+          <div>
+            <span>Figma</span><span>Adobe XD</span><span>Photoshop</span><span>Illustrator</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Web Accessibility</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner reveal">
+        <p class="section-label">05 · CONTACT</p>
+        <h2>좋은 화면을 만드는<br><span>다음 이야기를 기다립니다.</span></h2>
+        <p>웹디자인 · UI/UX · 콘텐츠 디자인 · 웹서비스 운영</p>
+        <a href="mailto:rkdwldms9058@naver.com">rkdwldms9058@naver.com <i>↗</i></a>
+      </div>
+      <div class="contact-marquee" aria-hidden="true"><span>WEB DESIGN · UI/UX · CONTENT · PUBLISHING ·&nbsp;</span><span>WEB DESIGN · UI/UX · CONTENT · PUBLISHING ·&nbsp;</span></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 KANG JIEUN</p>
+    <a href="#top">BACK TO TOP ↑</a>
+  </footer>
 </body>
-
 </html>
