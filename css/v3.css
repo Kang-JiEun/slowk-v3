@@ -98,6 +98,11 @@ button { font: inherit; }
 .gallery-wide .gallery-image { max-height: none; }
 .content-gallery figure:not(.gallery-wide) .gallery-image { height: auto; }
 .gallery-image img { display: block; width: 100%; height: auto; transition: transform .7s; }
+.gallery-months { display: flex; gap: 20px; overflow-x: auto; padding: 20px; scroll-snap-type: x mandatory; scrollbar-color: var(--ink) #dedbd2; }
+.gallery-months img { flex: 0 0 auto; width: min(820px, 78vw); max-width: none; scroll-snap-align: start; border: 1px solid rgba(0,0,0,.1); }
+.gallery-months::-webkit-scrollbar { height: 8px; }
+.gallery-months::-webkit-scrollbar-track { background: #dedbd2; }
+.gallery-months::-webkit-scrollbar-thumb { background: var(--ink); }
 .content-gallery figure:hover img { transform: scale(1.015); }
 .content-gallery figcaption { display: grid; grid-template-columns: 60px 1fr; padding-top: 22px; }
 .content-gallery figcaption > span { font: 600 11px/1 "DM Sans", sans-serif; }
