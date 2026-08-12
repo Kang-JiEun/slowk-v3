@@ -95,9 +95,9 @@ button { font: inherit; }
 .gallery-wide { grid-column: 1 / -1; }
 .content-gallery figure { margin: 0; }
 .gallery-image { overflow: hidden; background: #ece9e1; border: 1px solid rgba(0,0,0,.08); }
-.gallery-wide .gallery-image { max-height: 720px; }
-.content-gallery figure:not(.gallery-wide) .gallery-image { height: 620px; }
-.gallery-image img { height: 100%; object-fit: cover; object-position: top; transition: transform .7s; }
+.gallery-wide .gallery-image { max-height: none; }
+.content-gallery figure:not(.gallery-wide) .gallery-image { height: auto; }
+.gallery-image img { display: block; width: 100%; height: auto; transition: transform .7s; }
 .content-gallery figure:hover img { transform: scale(1.015); }
 .content-gallery figcaption { display: grid; grid-template-columns: 60px 1fr; padding-top: 22px; }
 .content-gallery figcaption > span { font: 600 11px/1 "DM Sans", sans-serif; }
